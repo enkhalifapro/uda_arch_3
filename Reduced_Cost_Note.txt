@@ -1,0 +1,4 @@
+- Using AWS ECS/Fargate instead of EC2 reduced the cost by 1.5k $
+- While the cost had been reduced, the performance had been even optimized Cause
+    - Ec2 processing power is 32 vCPU * 2 instances = 64 vCPU, while in Fargate 16 vCPU * 10 Task = 160 vCPU
+    - Ec2 Memory os 128, while in Fargate it's 120 GB which is less by just small amount

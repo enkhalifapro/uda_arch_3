@@ -1,0 +1,3 @@
+- The Increased cost proposal has:
+    - Extending ec2 from 2 instances to 12
+    - Adding extra rds read replica
